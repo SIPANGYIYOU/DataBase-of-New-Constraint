@@ -9,8 +9,8 @@ icount=0;
 %Synthetic_pure_rotation
 %disp('Synthetic_pure_rotation**********************************************************
 %
-%load('Synthetic_pure_rotation2.mat')% the angle of rotation has been changed because last one simulate data has been lossed.
-%ture: [angle | tranlation vector]: [10;-5;2| 0;0;0]
+%load('Synthetic_pure_rotation2.mat')% the angle of rotation has been changed because last one simulate pure data in submited paper has been lossed.
+%Update: ture: [angle | tranlation vector]: [10;-5;2| 0;0;0]
 %[Rt,Rt_cq,tmp]=Universial_Relative_PoseV2s_test(K1,K2,Matches,0.001);
     
 for j=1:10 %time iteration for 10 times (in order to avoid random error from machine) 
